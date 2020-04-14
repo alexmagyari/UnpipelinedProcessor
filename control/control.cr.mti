@@ -1,0 +1,15 @@
+{C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/control/control.v} {1 {vlog -work work -stats=none {C:\Users\amag0\Desktop\School Docs\ECE 5367\UnpipelinedProcessor\control\control.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module control
+
+Top level modules:
+	control
+
+} {} {}} {C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/control/control_tb.v} {1 {vlog -work work -stats=none {C:\Users\amag0\Desktop\School Docs\ECE 5367\UnpipelinedProcessor\control\control_tb.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module control_tb
+
+Top level modules:
+	control_tb
+
+} {} {}}

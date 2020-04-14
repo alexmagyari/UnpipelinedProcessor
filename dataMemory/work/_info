@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/misc
+vdataMemory
+!s110 1586508895
+!i10b 1
+!s100 3Wn_nEH^5>VJP1=V<4>[=0
+I8:KL0fh2SHYKN8CM5OznI3
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/dataMemory
+w1586508892
+8C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/dataMemory/dataMemory.v
+FC:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/dataMemory/dataMemory.v
+L0 29
+Z2 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z3 !s108 1586508895.000000
+!s107 C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/dataMemory/dataMemory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/dataMemory/dataMemory.v|
+!s101 -O0
+!i113 1
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+ndata@memory
+vdataMemory_tb
+!s110 1586508896
+!i10b 1
+!s100 nm<jKYn6oUAc@9=72UBAJ2
+IRHc`AX;H2ETeUmW]A5ZQ92
+R0
+R1
+w1586505209
+Z5 8C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/dataMemory/dataMemory_tb.v
+Z6 FC:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/dataMemory/dataMemory_tb.v
+Z7 L0 15
+R2
+r1
+!s85 0
+31
+R3
+!s107 C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/dataMemory/dataMemory_tb.v|
+Z8 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/dataMemory/dataMemory_tb.v|
+!s101 -O0
+!i113 1
+R4
+ndata@memory_tb
+vregisters_tb
+!s110 1586502562
+!i10b 1
+!s100 7:VY0;QJEcTcYKTdT_cUS3
+IC?2ZJcPaDODDUmdXUMK_D1
+R0
+R1
+w1586502540
+R5
+R6
+R7
+R2
+r1
+!s85 0
+31
+!s108 1586502562.000000
+!s107 C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/dataMemory/dataMemory_tb.v|
+R8
+!s101 -O0
+!i113 1
+R4

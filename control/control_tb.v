@@ -1,0 +1,52 @@
+// ECE 5440/6370 
+// Author: Alexander Magyari 4632
+// Control TestBench
+// This test bench tests the funcitonality the control unit of a processor.
+// 
+// Inputs: None
+//
+// Outputs: None
+`timescale 10ns/100ps
+
+module control_tb();
+    reg [5:0] instruction;
+    wire RegDst;
+    wire ALUSrc;
+    wire MemtoReg;
+    wire RegWrite;
+    wire MemRead;
+    wire MemWrite;
+    wire Branch;
+    wire Jump;
+    wire [1:0] ALUOp;
+    reg Clk;
+    reg Rst;
+
+    control DUT_control(instruction, RegDst, ALUSrc, MemtoReg, RegWrite, MemRead, MemWrite, Branch, Jump, ALUOp, Clk, Rst);
+
+    always 
+    begin
+        #10 Clk = 1;
+        #10 Clk = 0;
+    end
+
+    initial
+    begin
+        Rst = 1;
+        instruction = 6'b000000;
+        #20
+        Rst = 0;
+        #20
+        Rst = 1;
+        #20
+        instruction = 6'b100011;
+        #20
+        instruction = 6'b101011;
+        #20
+        instruction = 6'b000100;
+        #20
+        instruction = 6'b000010;
+        #20
+        instruction = 6'b000000;
+    end
+endmodule

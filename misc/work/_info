@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/control
+vleftShift_tb
+Z0 !s110 1586498352
+!i10b 1
+!s100 JegajoJHEAGVm:FI9KXgP2
+IZ=lPRD?_k]dT:NA7dQ=G51
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/misc
+w1586461502
+8C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/misc/leftShiftTB.v
+FC:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/misc/leftShiftTB.v
+Z3 L0 13
+Z4 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z5 !s108 1586498351.000000
+!s107 C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/misc/leftShiftTB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/misc/leftShiftTB.v|
+!s101 -O0
+!i113 1
+Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+nleft@shift_tb
+vshiftLeft2
+!s110 1586498351
+!i10b 1
+!s100 UcmTFX617EoKP>4WKKoY73
+Il2d59o8kf1LUnV8Q9g?E81
+R1
+R2
+w1586460713
+8C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/misc/leftShift2.v
+FC:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/misc/leftShift2.v
+L0 12
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/misc/leftShift2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/misc/leftShift2.v|
+!s101 -O0
+!i113 1
+R6
+nshift@left2
+vsignExtend
+R0
+!i10b 1
+!s100 m;YU8EEXOSVo:H7LBG6Cn0
+I9J?T0WlJHEW2cmabAlY291
+R1
+R2
+w1586498349
+8C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/misc/signExtend.v
+FC:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/misc/signExtend.v
+R3
+R4
+r1
+!s85 0
+31
+Z7 !s108 1586498352.000000
+!s107 C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/misc/signExtend.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/misc/signExtend.v|
+!s101 -O0
+!i113 1
+R6
+nsign@extend
+vsignExtend_tb
+R0
+!i10b 1
+!s100 ZhNoMYd^XhiYKf2;5jX1i2
+I8S>W0B[1K4KYh1:E>:b^:0
+R1
+R2
+w1586498161
+8C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/misc/signExtendTb.v
+FC:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/misc/signExtendTb.v
+R3
+R4
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/misc/signExtendTb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/misc/signExtendTb.v|
+!s101 -O0
+!i113 1
+R6
+nsign@extend_tb

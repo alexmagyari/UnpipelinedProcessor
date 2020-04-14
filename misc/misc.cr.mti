@@ -1,0 +1,29 @@
+{C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/misc/signExtend.v} {1 {vlog -work work -stats=none {C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/misc/signExtend.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module signExtend
+
+Top level modules:
+	signExtend
+
+} {} {}} {C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/misc/signExtendTb.v} {1 {vlog -work work -stats=none {C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/misc/signExtendTb.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module signExtend_tb
+
+Top level modules:
+	signExtend_tb
+
+} {} {}} {C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/misc/leftShift2.v} {1 {vlog -work work -stats=none {C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/misc/leftShift2.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module shiftLeft2
+
+Top level modules:
+	shiftLeft2
+
+} {} {}} {C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/misc/leftShiftTB.v} {1 {vlog -work work -stats=none {C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/misc/leftShiftTB.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module leftShift_tb
+
+Top level modules:
+	leftShift_tb
+
+} {} {}}

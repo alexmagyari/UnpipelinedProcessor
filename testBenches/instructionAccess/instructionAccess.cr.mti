@@ -1,0 +1,24 @@
+{C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/testBenches/instructionAccess/alu.v} {1 {vlog -work work -stats=none {C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/testBenches/instructionAccess/alu.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} {C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/testBenches/instructionAccess/instructionMemory.v} {2 {vlog -work work -stats=none {C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/testBenches/instructionAccess/instructionMemory.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module instructionMemory
+** Warning: C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/testBenches/instructionAccess/instructionMemory.v(36): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+
+Top level modules:
+	instructionMemory
+
+} {} {}} {C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/testBenches/instructionAccess/if_tb.v} {1 {vlog -work work -stats=none {C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/testBenches/instructionAccess/if_tb.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module if_tb
+
+Top level modules:
+	if_tb
+
+} {} {}}

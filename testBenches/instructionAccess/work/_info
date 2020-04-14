@@ -1,0 +1,117 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/programCounter
+valu
+Z0 !s110 1586494519
+!i10b 1
+!s100 ZY;?bjeQFQgB]U7d5PYG]1
+IKH<fN<HgekM6`mhf;jU5;2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/testBenches/instructionAccess
+w1585620774
+8C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/testBenches/instructionAccess/alu.v
+FC:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/testBenches/instructionAccess/alu.v
+L0 22
+Z3 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z4 !s108 1586494519.000000
+!s107 C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/testBenches/instructionAccess/alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/testBenches/instructionAccess/alu.v|
+!s101 -O0
+!i113 1
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vALUControl
+!s110 1586490901
+!i10b 1
+!s100 iP0dWa0T7eIa3??kJniHW3
+I0oF18cdN`?[LLzPA7_Qnm0
+R1
+R2
+w1586490775
+Z6 8C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/testBenches/instructionAccess/pc.v
+Z7 FC:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/testBenches/instructionAccess/pc.v
+Z8 L0 13
+R3
+r1
+!s85 0
+31
+!s108 1586490901.000000
+Z9 !s107 C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/testBenches/instructionAccess/pc.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/testBenches/instructionAccess/pc.v|
+!s101 -O0
+!i113 1
+R5
+n@a@l@u@control
+vif_tb
+R0
+!i10b 1
+!s100 40Xm8ShM6?T77iUmX0mzK0
+ImEhT9KjOYaG1WBZ96Mj@01
+R1
+R2
+w1586494439
+8C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/testBenches/instructionAccess/if_tb.v
+FC:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/testBenches/instructionAccess/if_tb.v
+L0 15
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/testBenches/instructionAccess/if_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/testBenches/instructionAccess/if_tb.v|
+!s101 -O0
+!i113 1
+R5
+vinstructionMemory
+R0
+!i10b 1
+!s100 aPE1zzDXYVi=GcM<B@YE80
+I^CUMg;8[Ng]]@o^lXg:H[1
+R1
+R2
+w1586493552
+8C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/testBenches/instructionAccess/instructionMemory.v
+FC:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/testBenches/instructionAccess/instructionMemory.v
+L0 19
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/testBenches/instructionAccess/instructionMemory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/testBenches/instructionAccess/instructionMemory.v|
+!s101 -O0
+!i113 1
+R5
+ninstruction@memory
+vpc
+R0
+!i10b 1
+!s100 dik:^lVe4V9H25jE4HcYR0
+IK<=ZJ13d76Q<m;Y4nMl;j1
+R1
+R2
+w1586494318
+R6
+R7
+R8
+R3
+r1
+!s85 0
+31
+R4
+R9
+R10
+!s101 -O0
+!i113 1
+R5

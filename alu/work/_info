@@ -1,0 +1,31 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/mux
+valu
+!s110 1585620782
+!i10b 1
+!s100 ZY;?bjeQFQgB]U7d5PYG]1
+IQ3LhjI4XbmXbE>cfb?QFY1
+VDg1SIo80bB@j0V0VzS_@n1
+dC:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/alu
+w1585620774
+8C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/alu/alu.v
+FC:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/alu/alu.v
+L0 22
+OP;L;10.4a;61
+r1
+!s85 0
+31
+!s108 1585620781.000000
+!s107 C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/alu/alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/alu/alu.v|
+!s101 -O0
+!i113 1
+o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0

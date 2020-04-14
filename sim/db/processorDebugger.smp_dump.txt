@@ -1,0 +1,6 @@
+
+State Machine - |processorDebugger|buttonShaper:BS|State
+Name State.State_Off State.State_On2 State.State_On1 
+State.State_Off 0 0 0 
+State.State_On1 1 0 1 
+State.State_On2 1 1 0 
