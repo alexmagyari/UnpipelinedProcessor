@@ -1,7 +1,7 @@
 // ECE 5440/6370 
 // Author: Alexander Magyari 4632
 // ALU 
-// Logic unit for two thirty two bit inputs 
+// Arithmetic Logic unit for two thirty two bit inputs 
 // 
 
 // Inputs:
@@ -14,6 +14,7 @@
 //                     4'b0110: subtract
 //                     4'b0111: set on less than
 //                     4'b1100: NOR
+//                     4'b0100: SLLV
 //                     default: 0
 //
 // Outputs:
@@ -52,12 +53,17 @@ module alu(
 
             4'b0111:
             begin
-                Y = (A < B) ? 1 : 0;
+                Y = ($signed(A) < $signed(B)) ? 1 : 0;
             end
 
             4'b1100:
             begin
                 Y = ~(A | B);
+            end
+
+            4'b0100:
+            begin
+                Y = A << B;
             end
 
             default:

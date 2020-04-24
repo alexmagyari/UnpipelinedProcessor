@@ -5,8 +5,6 @@
 // 
 // Inputs:
 //   instruction [5:0]: which instruction is being processed
-//   clk: clock input
-//   rst: reset input
 //
 // Outputs:
 //   RegDst: High if rd is contained in the instruction (R-type)
@@ -15,7 +13,8 @@
 //   RegWrite: High if Registers are to be written to
 //   MemRead: High if the memory is to be read from
 //   MemWrite: High if memory is to be written to
-//   Branch: Only high for branch instructions
+//   BranchE: Only high for branch equals instructions
+//   BranchNE: Only high for branch not equals instructions
 //   Jump: Only high for jump instructions
 //   ALUOp [1:0]: The ALU operation to run in the ALU control module
 
@@ -27,13 +26,14 @@ module control(
                 output reg RegWrite,
                 output reg MemRead,
                 output reg MemWrite,
-                output reg Branch,
+                output reg BranchE,
+                output reg BranchNE,
                 output reg Jump,
                 output reg [1:0] ALUOp);
 
     parameter RType = 6'b000000, loadWord = 6'b100011,
               storeWord = 6'b101011, branchEquals = 6'b000100,
-              jmp = 6'b000010, addi = 6'b001000;
+              branchNotEquals = 6'b000101, jmp = 6'b000010, addi = 6'b001000;
 
     always @(instruction)
     begin
@@ -46,7 +46,8 @@ module control(
                 RegWrite = 1;
                 MemRead = 0;
                 MemWrite = 0;
-                Branch = 0;
+                BranchE = 0;
+                BranchNE = 0;
                 Jump = 0;
                 ALUOp = 2'b10;
             end
@@ -59,7 +60,8 @@ module control(
                 RegWrite = 1;
                 MemRead = 0;
                 MemWrite = 0;
-                Branch = 0;
+                BranchE = 0;
+                BranchNE = 0;
                 Jump = 0;
                 ALUOp = 2'b00;
             end
@@ -72,7 +74,8 @@ module control(
                 RegWrite = 1;
                 MemRead = 1;
                 MemWrite = 0;
-                Branch = 0;
+                BranchE = 0;
+                BranchNE = 0;
                 Jump = 0;
                 ALUOp = 2'b00;
             end
@@ -85,7 +88,8 @@ module control(
                 RegWrite = 0;
                 MemRead = 0;
                 MemWrite = 1;
-                Branch = 0;
+                BranchE = 0;
+                BranchNE = 0;
                 Jump = 0;
                 ALUOp = 2'b00;
             end
@@ -98,11 +102,25 @@ module control(
                 RegWrite = 0;
                 MemRead = 0;
                 MemWrite = 0;
-                Branch = 1;
+                BranchE = 1;
+                BranchNE = 0;
                 Jump = 0;
                 ALUOp = 2'b01;
             end
 
+            branchNotEquals:
+            begin
+                RegDst = 0;
+                ALUSrc = 0;
+                MemtoReg = 0;
+                RegWrite = 0;
+                MemRead = 0;
+                MemWrite = 0;
+                BranchE = 0;
+                BranchNE = 1;
+                Jump = 0;
+                ALUOp = 2'b01;
+            end
             jmp:
             begin
                 RegDst = 0;
@@ -111,7 +129,8 @@ module control(
                 RegWrite = 0;
                 MemRead = 0;
                 MemWrite = 0;
-                Branch = 0;
+                BranchE = 0;
+                BranchNE = 0;
                 Jump = 1;
                 ALUOp = 2'b01;
             end
@@ -124,7 +143,8 @@ module control(
                 RegWrite = 0;
                 MemRead = 0;
                 MemWrite = 0;
-                Branch = 0;
+                BranchE = 0;
+                BranchNE = 0;
                 Jump = 0;
                 ALUOp = 2'b00;
             end

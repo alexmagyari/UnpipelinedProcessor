@@ -17,9 +17,9 @@
 //      memRead: High if the memory is to be read from. Implemented
 //               so as to prevent reads from invalid addresses
 //      writeEnable: High only if the memory should be written to
-//      addr [31:0]: the address to read from or write to or both
-//      peekAddr [31:0]: The address being viewed by the debugger
-//      writeData [31:0]: the data that should be written to the memory
+//      addr 32b: the address to read from or write to or both
+//      peekAddr 32b: The address being viewed by the debugger
+//      writeData 32b: the data that should be written to the memory
 //      
 //      
 // Outputs:
@@ -27,6 +27,7 @@
 //      peekData 32b: The data read from peekAddr
 //
 //  
+`define memorySize 500
 
 module dataMemory(
                  input [31:0] addr,
@@ -40,8 +41,7 @@ module dataMemory(
                  input Clk,
                  input Rst);
 
-    reg [31:0] memory [127:0];
-    // reg [31:0] memory [511:0];
+    reg [31:0] memory [(`memorySize - 1):0];
 
     reg State;
     parameter StateIdle = 1'b0, StateWrite = 1'b1;
@@ -51,10 +51,7 @@ module dataMemory(
     begin
         if (Rst == 1'b0)
         begin
-            for (i = 0; i < 128; i = i + 1)
-            begin
-                memory[i] <= i;
-            end
+            $readmemh("data.mem", memory);
             State <= StateIdle;
         end
         else

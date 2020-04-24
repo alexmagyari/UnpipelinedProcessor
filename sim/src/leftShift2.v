@@ -1,13 +1,15 @@
 // ECE 5367
 // Author: Alexander Magyari 4632
 // Left Shift 2 bits
-// This module shifts the input 2 bits
+// This module shifts the input 2 bits. This has since
+// been implemented in the top level architecture without
+// this module.
 // 
 // Inputs:
-//   instruction [31:0]: the instruction to be shifted
+//   instruction 32b: the instruction to be shifted
 //
 // Outputs:
-//   q [31:0]: the shifted instruction
+//   q 32b: the shifted instruction
 
 module shiftLeft2(
                   input [31:0] instruction,

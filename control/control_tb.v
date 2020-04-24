@@ -16,34 +16,25 @@ module control_tb();
     wire RegWrite;
     wire MemRead;
     wire MemWrite;
-    wire Branch;
+    wire BranchE;
+    wire BranchNE;
     wire Jump;
     wire [1:0] ALUOp;
-    reg Clk;
-    reg Rst;
 
-    control DUT_control(instruction, RegDst, ALUSrc, MemtoReg, RegWrite, MemRead, MemWrite, Branch, Jump, ALUOp, Clk, Rst);
+    control DUT_control(instruction, RegDst, ALUSrc, MemtoReg, RegWrite, MemRead, MemWrite, BranchE, BranchNE, Jump, ALUOp);
 
-    always 
-    begin
-        #10 Clk = 1;
-        #10 Clk = 0;
-    end
 
     initial
     begin
-        Rst = 1;
         instruction = 6'b000000;
-        #20
-        Rst = 0;
-        #20
-        Rst = 1;
         #20
         instruction = 6'b100011;
         #20
         instruction = 6'b101011;
         #20
         instruction = 6'b000100;
+        #20
+        instruction = 6'b000101;
         #20
         instruction = 6'b000010;
         #20

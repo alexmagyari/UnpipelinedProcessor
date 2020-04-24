@@ -14,22 +14,26 @@
 module registers_tb();
 
     reg clk, rst;
-    reg regWrite;
-    reg [4:0] readReg1, readReg2, writeReg;
+    reg regWrite, writeEnable;
+    reg [4:0] readReg1, readReg2, writeReg, peekReg;
     reg [31:0] writeData;
     wire [31:0] readData1;
     wire [31:0] readData2;
+    wire [31:0] peekData;
 
-    registers DUT_registers(regWrite, readReg1, readReg2, writeReg, writeData, readData1, readData2, clk, rst);
-                //  input regWrite,
-                //  input [4:0] readReg1,
-                //  input [4:0] readReg2,
-                //  input [4:0] writeReg,
-                //  input [31:0] writeData,
-                //  output reg [31:0] readData1,
-                //  output reg [31:0] readData2,
-                //  input Clk,
-                //  input Rst);
+    registers DUT_registers(regWrite, readReg1, readReg2, writeReg, writeData, writeEnable, peekReg, readData1, readData2, peekData, clk, rst);
+                // input regWrite,
+                // input [4:0] readReg1,
+                // input [4:0] readReg2,
+                // input [4:0] writeReg,
+                // input [31:0] writeData,
+                // input writeEnable,
+                // input [4:0] peekReg,
+                // output reg [31:0] readData1,
+                // output reg [31:0] readData2,
+                // output reg [31:0] peekData,
+                // input Clk,
+                // input Rst);
 
     // Clock period of 20 ns
     always 
@@ -43,6 +47,8 @@ module registers_tb();
         rst = 1;
         clk = 0;
         regWrite = 1'b0;
+        writeEnable = 1'b0;
+        peekReg = 5'b00000;
         readReg1 = 5'b00000;
         readReg2 = 5'b00000;
         writeReg = 5'b00000;
@@ -59,6 +65,7 @@ module registers_tb();
         #40
         regWrite = 1'b0;
         readReg1 = 5'b01010;
+        peekReg = 5'b01010;
 
     end
 endmodule

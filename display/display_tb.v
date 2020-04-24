@@ -14,7 +14,7 @@ module display_tb();
     wire [4:0] regToPeek;
     wire [31:0] memToPeek;
     reg Clk,Rst;
-    wire [4:0] ss0, ss1, ss2, ss3, ss4, ss5;
+    wire [3:0] ss0, ss1, ss2, ss3, ss4, ss5;
 
     display DUT_display(switches, regData, memData, address, ss0, ss1, ss2, ss3, ss4, ss5, regToPeek, memToPeek, Clk, Rst);
 
@@ -37,7 +37,7 @@ module display_tb();
         #20
         Rst = 1;
         #20
-        address = 32'h11111111;
+        address = 32'h00000010;
         memData = 32'h33333333;
         regData = 32'h99999999;
         #20

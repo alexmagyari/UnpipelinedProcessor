@@ -1,18 +1,18 @@
 // ECE 5440/6370 
 // Author: Alexander Magyari 4632
 // Instruction Memory
-// Loads all the instructions located in. This module is not
-// clocked - it runs at the pace of the PC.
+// Loads all the instructions located in instructions.mem. 
+// This module is not clocked - it runs at the pace of the PC.
 // 
 // Constants
 //      memorySize: The size of memory in Bytes
 //
 // Inputs:
-//      programCounter [31:0]: Points to which instruction to read 
+//      programCounter 32b: Points to which instruction to read 
 //      Rst: Loads the data from the memory initialization file.
 //
 // Outputs:
-//      instruction: The instruction that has been read
+//      instruction 32b: The instruction that has been read
 
 `define memorySize 500
 
@@ -22,6 +22,7 @@ module instructionMemory(
                   input Rst);
 
     reg [7:0] rom [(`memorySize - 1):0]; 
+    integer i;
 
     always @(programCounter, Rst)
     begin

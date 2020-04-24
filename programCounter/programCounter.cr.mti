@@ -1,8 +1,17 @@
-{C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/programCounter/pc.v} {1 {vlog -work work -stats=none {C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/programCounter/pc.v}
+{C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/programCounter/pcTB.v} {2 {vlog -work work -stats=none {C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/programCounter/pcTB.v}
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module ALUControl
+-- Compiling module pc_tb
+** Warning: C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/programCounter/pcTB.v(41): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
 
 Top level modules:
-	ALUControl
+	pc_tb
+
+} {} {}} {C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/programCounter/pc.v} {1 {vlog -work work -stats=none {C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/programCounter/pc.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module pc
+
+Top level modules:
+	pc
 
 } {} {}}

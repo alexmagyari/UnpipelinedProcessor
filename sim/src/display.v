@@ -11,19 +11,25 @@
 // Inputs:
 //      Clk: Clock
 //      Rst: Reset
-//      switches [9:0]: The ten flip switches on the board
-//      regData [31:0]: The data in the selected register
-//      memData [31:0] The data in the selected memory location
+//      address 32b: The address of the instruction that is
+//                   about to execute.
+//      switches 10b: The ten flip switches on the board
+//      regData 32b: The data in the selected register
+//      memData 32b The data in the selected memory location
 //      
 //      
 //      
 // Outputs:
-//      ss0: Seven Segment Display0
-//      ss1: Seven Segment Display1
-//      ss2: Seven Segment Display2
-//      ss3: Seven Segment Display3
-//      ss4: Seven Segment Display4
-//      ss5: Seven Segment Display5
+//      ss0 4b: Seven Segment Display0
+//      ss1 4b: Seven Segment Display1
+//      ss2 4b: Seven Segment Display2
+//      ss3 4b: Seven Segment Display3
+//      ss4 4b: Seven Segment Display4
+//      ss5 4b: Seven Segment Display5
+//      regToPeek 5b: Which register to look at. Selected by
+//                    a series of flip switches.
+//      memToPeek 32b: Which memory locaiton to look at. Selected
+//                     by a series of flip switches.
 //  
 
 module display(
@@ -35,16 +41,17 @@ module display(
                  output reg [3:0] ss1,
                  output reg [3:0] ss2,
                  output reg [3:0] ss3,
-                 output reg [3:0] ss4,
-                 output reg [3:0] ss5,
+                 output wire [3:0] ss4,
+                 output wire [3:0] ss5,
                  output reg [4:0] regToPeek,
                  output reg [31:0] memToPeek,
                  input Clk,
                  input Rst);
 
-    reg [3:0] digitOnes;
-    reg [3:0] digitTens;
-    reg [31:0] line;
+    wire [31:0] line;
+    assign line = (address >> 2);
+    // Converts 8b to BCD for display
+    BCD BCDModule(line[7:0], ss4, ss5);
 
     always @(switches, regData, memData, address, Rst)
     begin
@@ -54,8 +61,6 @@ module display(
             ss1 = 4'b0000;
             ss2 = 4'b0000;
             ss3 = 4'b0000;
-            ss4 = 4'b0001;
-            ss5 = 4'b0000;
             regToPeek = 5'b00000;
             memToPeek = 32'h00000000;
         end
@@ -79,21 +84,6 @@ module display(
                     ss3 = memData[15:12];
                 end
             endcase
-            //line = (address >> 2) + 1'b1;
-            line = (address >> 2);
-            digitOnes = line[3:0];
-            digitTens = line[7:4];
-            if (digitOnes > 4'b1001)
-            begin
-                digitTens = digitTens + 1'b1;
-                digitOnes = digitOnes - 4'b1010;
-            end
-            if (digitTens > 4'b1010)
-            begin
-                digitTens = 4'b1001;
-            end
-            ss4 = digitOnes;
-            ss5 = digitTens;
         end
     end
 endmodule

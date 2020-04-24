@@ -9,21 +9,21 @@ z2
 cModel Technology
 dC:/Users/amag0/Desktop/School Docs/ECE 6370/Lab3_MAGYARI_A/sim_digitTimer
 vregisters
-Z0 !s110 1586508584
+Z0 !s110 1587736997
 !i10b 1
-!s100 7iTiYfCa[aSP`Hhmd^6BQ1
-INA1W=<mREeVgVBFOa[OCn3
+!s100 iZ>TaW?@zOb8NIECmU74g2
+Ic`Hzb7]hKAj<aL1IT5naN3
 Z1 VDg1SIo80bB@j0V0VzS_@n1
 Z2 dC:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/registers
-w1586508567
+w1587732237
 8C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/registers/registers.v
 FC:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/registers/registers.v
-L0 23
+L0 26
 Z3 OP;L;10.4a;61
 r1
 !s85 0
 31
-Z4 !s108 1586508584.000000
+Z4 !s108 1587736997.000000
 !s107 C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/registers/registers.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/registers/registers.v|
 !s101 -O0
@@ -32,11 +32,11 @@ Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
 vregisters_tb
 R0
 !i10b 1
-!s100 3a464Z9A2iannA?I?;beS1
-IN]J6M=YmhCnn4>cJMT=3?1
+!s100 6YMU3h8IZ0]0<_X9mCjZ@3
+Iak=jgYS6`2@^fAz0gZO]83
 R1
 R2
-w1586507765
+w1587736976
 8C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/registers/registers_tb.v
 FC:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/registers/registers_tb.v
 L0 14

@@ -1,12 +1,12 @@
-Fitter Status : Successful - Tue Apr 14 01:31:30 2020
+Fitter Status : Successful - Wed Apr 22 04:25:38 2020
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : processorDebugger
 Top-level Entity Name : processorDebugger
 Family : Cyclone V
 Device : 5CEBA4F23C7
 Timing Models : Final
-Logic utilization (in ALMs) : 2,990 / 18,480 ( 16 % )
-Total registers : 4307
+Logic utilization (in ALMs) : 10,725 / 18,480 ( 58 % )
+Total registers : 16675
 Total pins : 55 / 224 ( 25 % )
 Total virtual pins : 0
 Total block memory bits : 0 / 3,153,920 ( 0 % )

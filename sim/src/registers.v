@@ -20,7 +20,7 @@
 // Outputs:
 //      readData1 32b: The data in register 1
 //      readData2 32b: The data in register 2
-//      peekData 32b: The data being view in the debugger
+//      peekData 32b: The data being view by the debugger
 //  
 
 module registers(

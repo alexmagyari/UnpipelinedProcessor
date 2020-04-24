@@ -5,7 +5,7 @@
 // with an enable bit for to load the new pc in.
 // 
 // Inputs:
-//   in [31:0]: Address to access
+//   in 32b: Address to access
 //   enable: Loads the new pc value in when high
 //   jump: if current command is a jump
 //   branch if current command is a branch
@@ -13,7 +13,7 @@
 //   Rst
 //
 // Outputs:
-//   q [31:0]: outputs address
+//   q 32b: outputs address
 
 module pc(
           input [31:0] in,
@@ -24,7 +24,7 @@ module pc(
           input Clk,
           input Rst);
     reg State;
-    parameter [1:0] StateIdle = 2'b00, StateCheckJumpOrBranch = 2'b01, StateWaitForInput = 2'b10;
+    parameter StateIdle = 1'b0, StateCheckJumpOrBranch = 1'b1;
     always @(posedge Clk)
     if (Rst == 1'b0)
     begin

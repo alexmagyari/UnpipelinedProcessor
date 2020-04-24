@@ -9,44 +9,44 @@ z2
 cModel Technology
 dC:/Users/amag0/Desktop/School Docs/ECE 6370/Lab4_MAGYARI_A/rom
 vcontrol
-Z0 !s110 1586459375
+Z0 !s110 1587733473
 !i10b 1
-!s100 ;QLQdcdE:n;`VWK1OKGCF3
-IK3gb`EIKdA5cz?cfdH]8O2
+!s100 :Y_8zNSPh5?cKGGVme1S`2
+I_iCYEOD7GTZWY<XPCCLo81
 Z1 VDg1SIo80bB@j0V0VzS_@n1
 Z2 dC:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/control
-w1586459246
-8C:\Users\amag0\Desktop\School Docs\ECE 5367\UnpipelinedProcessor\control\control.v
-FC:\Users\amag0\Desktop\School Docs\ECE 5367\UnpipelinedProcessor\control\control.v
-L0 22
+w1587730931
+8C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/control/control.v
+FC:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/control/control.v
+L0 21
 Z3 OP;L;10.4a;61
 r1
 !s85 0
 31
-!s108 1586459374.000000
-!s107 C:\Users\amag0\Desktop\School Docs\ECE 5367\UnpipelinedProcessor\control\control.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\amag0\Desktop\School Docs\ECE 5367\UnpipelinedProcessor\control\control.v|
+Z4 !s108 1587733473.000000
+!s107 C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/control/control.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/control/control.v|
 !s101 -O0
 !i113 1
-Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
 vcontrol_tb
 R0
 !i10b 1
-!s100 Fkk;>`H5V`FKS>LFl:UJ20
-IAcIb[;8XRW_zWg89KD2c;0
+!s100 lC2EemCl24O`X`94Di`f33
+I5AT8nm=QiY9G3Jzm90D8[3
 R1
 R2
-w1586459371
-8C:\Users\amag0\Desktop\School Docs\ECE 5367\UnpipelinedProcessor\control\control_tb.v
-FC:\Users\amag0\Desktop\School Docs\ECE 5367\UnpipelinedProcessor\control\control_tb.v
+w1587733467
+8C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/control/control_tb.v
+FC:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/control/control_tb.v
 L0 11
 R3
 r1
 !s85 0
 31
-!s108 1586459375.000000
-!s107 C:\Users\amag0\Desktop\School Docs\ECE 5367\UnpipelinedProcessor\control\control_tb.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\amag0\Desktop\School Docs\ECE 5367\UnpipelinedProcessor\control\control_tb.v|
+R4
+!s107 C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/control/control_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/control/control_tb.v|
 !s101 -O0
 !i113 1
-R4
+R5

@@ -116,30 +116,6 @@
 					"strict" : false
 				},
 				{
-					"name" : "sevenSegment4[0]",
-					"strict" : false
-				},
-				{
-					"name" : "sevenSegment4[1]",
-					"strict" : false
-				},
-				{
-					"name" : "sevenSegment4[2]",
-					"strict" : false
-				},
-				{
-					"name" : "sevenSegment4[3]",
-					"strict" : false
-				},
-				{
-					"name" : "sevenSegment4[4]",
-					"strict" : false
-				},
-				{
-					"name" : "sevenSegment4[5]",
-					"strict" : false
-				},
-				{
 					"name" : "sevenSegment4[6]",
 					"strict" : false
 				},
@@ -172,15 +148,47 @@
 					"strict" : false
 				},
 				{
+					"name" : "sevenSegment4[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSegment4[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSegment4[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSegment4[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSegment4[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSegment4[5]",
+					"strict" : false
+				},
+				{
 					"name" : "Rst",
 					"strict" : false
 				},
 				{
-					"name" : "switches[3]",
+					"name" : "switches[4]",
+					"strict" : false
+				},
+				{
+					"name" : "switches[5]",
 					"strict" : false
 				},
 				{
 					"name" : "switches[2]",
+					"strict" : false
+				},
+				{
+					"name" : "switches[3]",
 					"strict" : false
 				},
 				{
@@ -192,19 +200,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "switches[5]",
-					"strict" : false
-				},
-				{
-					"name" : "switches[4]",
-					"strict" : false
-				},
-				{
 					"name" : "switches[6]",
 					"strict" : false
 				},
 				{
-					"name" : "switches[9]",
+					"name" : "switches[8]",
 					"strict" : false
 				},
 				{
@@ -212,7 +212,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "switches[8]",
+					"name" : "switches[9]",
 					"strict" : false
 				},
 				{

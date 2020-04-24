@@ -1,15 +1,15 @@
-{C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/im/instructionMemory.v} {1 {vlog -work work -stats=none {C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/im/instructionMemory.v}
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module instructionMemory
-
-Top level modules:
-	instructionMemory
-
-} {} {}} {C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/im/im_tb.v} {1 {vlog -work work -stats=none {C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/im/im_tb.v}
+{C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/im/im_tb.v} {1 {vlog -work work -stats=none {C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/im/im_tb.v}
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module im_tb
 
 Top level modules:
 	im_tb
+
+} {} {}} {C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/im/instructionMemory.v} {1 {vlog -work work -stats=none {C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/im/instructionMemory.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module instructionMemory
+
+Top level modules:
+	instructionMemory
 
 } {} {}}

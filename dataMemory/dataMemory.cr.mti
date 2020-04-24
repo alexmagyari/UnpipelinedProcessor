@@ -1,4 +1,11 @@
-{C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/dataMemory/dataMemory_tb.v} {1 {vlog -work work -stats=none {C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/dataMemory/dataMemory_tb.v}
+{C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/dataMemory/dataMemory.v} {1 {vlog -work work -stats=none {C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/dataMemory/dataMemory.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module dataMemory
+
+Top level modules:
+	dataMemory
+
+} {} {}} {C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/dataMemory/dataMemory_tb.v} {1 {vlog -work work -stats=none {C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/dataMemory/dataMemory_tb.v}
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module dataMemory_tb
 

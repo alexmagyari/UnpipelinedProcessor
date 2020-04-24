@@ -9,61 +9,61 @@ z2
 cModel Technology
 dC:/Users/amag0/Desktop/School Docs/ECE 6370/Lab4_MAGYARI_A/rom
 vALUControl
-Z0 !s110 1586473273
+!s110 1587733105
 !i10b 1
-!s100 JPNRjK<RcVOdO?IFnQEg30
-IMNBOB7]aEf5l`<Q67Ib[B3
-Z1 VDg1SIo80bB@j0V0VzS_@n1
-Z2 dC:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/ALUControl
-w1586473207
+!s100 oE?X>6az7FhbbRil4CIDU3
+I2M5I1C09?KGXTKdB@Uz`Z3
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/ALUControl
+w1587730663
 8C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/ALUControl/ALUcontrol.v
 FC:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/ALUControl/ALUcontrol.v
-Z3 L0 22
-Z4 OP;L;10.4a;61
+L0 14
+Z2 OP;L;10.4a;61
 r1
 !s85 0
 31
-Z5 !s108 1586473273.000000
+Z3 !s108 1587733105.000000
 !s107 C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/ALUControl/ALUcontrol.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/ALUControl/ALUcontrol.v|
 !s101 -O0
 !i113 1
-Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
 n@a@l@u@control
 vALUControl_tb
-R0
+!s110 1587733106
 !i10b 1
-!s100 YJDFkSeAJeZaV^g5>jLG_1
-ImC90S?iM13Jii3_X3ETcM2
+!s100 U15ajg_HH^:R1S[d5ClK^1
+IZe@7L7JD7Nkzj2Q3^Ad^S2
+R0
 R1
+w1587733007
+Z5 8C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/ALUControl/ALUcontrol_tb.v
+Z6 FC:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/ALUControl/ALUcontrol_tb.v
+Z7 L0 11
 R2
-w1586473267
-Z7 8C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/ALUControl/ALUcontrol_tb.v
-Z8 FC:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/ALUControl/ALUcontrol_tb.v
-Z9 L0 11
-R4
 r1
 !s85 0
 31
-R5
+R3
 !s107 C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/ALUControl/ALUcontrol_tb.v|
-Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/ALUControl/ALUcontrol_tb.v|
+Z8 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/ALUControl/ALUcontrol_tb.v|
 !s101 -O0
 !i113 1
-R6
+R4
 n@a@l@u@control_tb
 vcontrol
 !s110 1586473070
 !i10b 1
 !s100 ;QLQdcdE:n;`VWK1OKGCF3
 I`V^BaIV4aT@:`K;UCGU3h1
+R0
 R1
-R2
 w1586459246
 8C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/control/control.v
 FC:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/control/control.v
-R3
-R4
+L0 22
+R2
 r1
 !s85 0
 31
@@ -72,25 +72,25 @@ r1
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/control/control.v|
 !s101 -O0
 !i113 1
-R6
+R4
 vcontrol_tb
 !s110 1586473211
 !i10b 1
 !s100 Nje>?6Vijz3@hf:[a45mD2
 I?ZQHc_hKh^2:enP44kNYG2
+R0
 R1
-R2
 w1586472916
+R5
+R6
 R7
-R8
-R9
-R4
+R2
 r1
 !s85 0
 31
 !s108 1586473211.000000
 !s107 C:/Users/amag0/Desktop/School Docs/ECE 5367/UnpipelinedProcessor/ALUControl/ALUcontrol_tb.v|
-R10
+R8
 !s101 -O0
 !i113 1
-R6
+R4

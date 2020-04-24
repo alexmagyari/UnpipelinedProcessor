@@ -5,10 +5,10 @@
 // similarly signed output
 // 
 // Inputs:
-//   instruction [15:0]: instruction to be extended
+//   instruction 16b: instruction to be extended
 //
 // Outputs:
-//   q [31:0]: the extended instruction
+//   q 32b: the extended instruction
 
 module signExtend(
                   input [15:0] instruction,
@@ -16,7 +16,7 @@ module signExtend(
 
     always @(instruction)
     begin
-        q = {instruction[15], 16'b000000000000000, instruction[14:0]};
+        q = {{16{instruction[15]}}, instruction};
     end
 endmodule
 
